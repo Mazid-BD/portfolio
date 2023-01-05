@@ -12,6 +12,9 @@
     width: 1140px;
     margin: 0 auto;
 }
+.section-divider{
+    margin-top: 130px;
+}
 .header-navbar {
     background: #FFF8F3;
     width: 100%;
@@ -71,4 +74,96 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.about-content{
+    width: 827px;
+    height: 288px;
+    text-align: center;
+    padding: 131px 156px;
+}
+.about-content h3{
+    font-size: 35px;
+    color: #181818;
+}
+.about-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+.font-w{
+    font-weight: 700;
+}
+.about-personal-info-controls{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.title-primary{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.paragraph-primary p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    text-align: center;
+}
+.this-text-controls{
+    width: 909px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+/* what i do */
+.working-tree-content{
+    width: 201px;
+    line-height: 28px;
+}
+.working-tree-single{
+    width: 267px;background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.working-tree-content{
+    padding: 30px;
+}
+.working-tree-controls{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/* Rezume summery starts here */
+.education-control h2{
+    font-size: 33px;
+    font-weight: 800;
+    color: #414141;
+}
+.education-control h3{
+    font-size: 28px;
+    font-weight: 800;
+    color: #414141;
+}
+.ins-name{
+    font-size: 22px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.education-para{
+    font-weight: 400;
+    font-size: 17px;
+    color: #757575;
+    margin-bottom: 22px;
+}
+.education-controls-content{
+    width: 511px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.skill-main-controls{
+    display: flex;
+    justify-content: space-between;
 }
