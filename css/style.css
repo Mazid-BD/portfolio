@@ -15,7 +15,7 @@
 .header-navbar {
     background: #FFF8F3;
     width: 100%;
-    height: 837px;
+    height: auto;
 }
 .header-controls{
     display: flex;
@@ -46,4 +46,29 @@
     background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left, bottom right;
+    margin-bottom: 0px;
+}
+/* banner content starts here */
+.banner-content{
+    margin-top: 185px;
+}
+.banner-content-text h2{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.banner-content-text h1{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+.banner-content-text p{
+    font-weight: 400;
+    font-size: 17px;
+    color: #757575;
+}
+.banner-content-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
